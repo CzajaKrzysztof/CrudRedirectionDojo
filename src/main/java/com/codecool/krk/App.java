@@ -9,10 +9,6 @@ import java.net.InetSocketAddress;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
     public static void main( String[] args ) throws IOException {
@@ -24,6 +20,7 @@ public class App
         HttpServer server = HttpServer.create(new InetSocketAddress(8000), 0);
 
         // set routes
+        server.createContext("/students/static", new Static());
         server.createContext("/students", new StudentController(students));
         server.createContext("/students/add", new StudentController(students));
         server.createContext("/students/edit/5", new StudentController(students));
