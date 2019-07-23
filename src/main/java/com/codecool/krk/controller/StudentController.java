@@ -1,8 +1,8 @@
-package controller;
+package com.codecool.krk.controller;
 
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
-import model.Student;
+import com.codecool.krk.model.Student;
 import org.jtwig.JtwigModel;
 import org.jtwig.JtwigTemplate;
 

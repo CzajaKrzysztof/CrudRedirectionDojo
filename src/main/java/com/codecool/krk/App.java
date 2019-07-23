@@ -1,8 +1,8 @@
 package com.codecool.krk;
 
 import com.sun.net.httpserver.HttpServer;
-import controller.StudentController;
-import model.Student;
+import com.codecool.krk.controller.StudentController;
+import com.codecool.krk.model.Student;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;

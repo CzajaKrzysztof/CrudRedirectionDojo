@@ -1,4 +1,4 @@
-package model;
+package com.codecool.krk.model;
 
 public class Student {
     private int id;
