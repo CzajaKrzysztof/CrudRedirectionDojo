@@ -97,9 +97,9 @@ public class MimeTypes {
     public static final String MIME_AUDIO_X_WAV         = "audio/x-wav";
     public static final String MIME_CHEMICAL_X_PDB        = "chemical/x-pdb";
     public static final String MIME_CHEMICAL_X_XYZ        = "chemical/x-xyz";
-    public static final String MIME_MODEL_IGES          = "com/codecool/krk/model/iges";
-    public static final String MIME_MODEL_MESH          = "com/codecool/krk/model/mesh";
-    public static final String MIME_MODEL_VRLM          = "com/codecool/krk/model/vrml";
+    public static final String MIME_MODEL_IGES          = "model/iges";
+    public static final String MIME_MODEL_MESH          = "model/mesh";
+    public static final String MIME_MODEL_VRLM          = "model/vrml";
     public static final String MIME_TEXT_PLAIN          = "text/plain";
     public static final String MIME_TEXT_RICHTEXT       = "text/richtext";
     public static final String MIME_TEXT_RTF          = "text/rtf";
@@ -301,4 +301,3 @@ public class MimeTypes {
             }};
     }
 }
-

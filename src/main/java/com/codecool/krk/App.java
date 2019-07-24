@@ -20,7 +20,7 @@ public class App
         HttpServer server = HttpServer.create(new InetSocketAddress(8000), 0);
 
         // set routes
-        server.createContext("/students/static", new Static());
+        server.createContext("/static", new Static());
         server.createContext("/students", new StudentController(students));
         server.createContext("/students/add", new StudentController(students));
         server.createContext("/students/edit/5", new StudentController(students));
